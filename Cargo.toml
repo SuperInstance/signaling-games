@@ -1,0 +1,15 @@
+[package]
+name = "signaling-games"
+version = "0.1.0"
+edition = "2024"
+description = "Bayesian signaling games: sender/receiver equilibria, information cascades, and belief revision"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/signaling-games"
+keywords = ["game-theory", "signaling", "bayesian", "economics", "equilibrium"]
+categories = ["science", "mathematics", "simulation"]
+readme = "README.md"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
